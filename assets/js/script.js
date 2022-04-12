@@ -5,7 +5,7 @@
             });
         });
         $(document).ready(function () {
-            $("h3").dblclick(function () {
+            $("h5").dblclick(function () {
                 $(this).css({
                     "color": "red",
                 });
