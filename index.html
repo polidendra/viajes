@@ -61,7 +61,7 @@
 
 
     <!--  Primera seccion -->
-    <section class="container-fluid d-none d-md-block bg-dark">
+    <section class="container-fluid bg-dark">
         <div id="demo" class="carousel slide" data-ride="carousel">
             <!--Carrusel -->
             <div id="miCarrusel" class="carousel slide" data-ride="carousel">
@@ -101,24 +101,23 @@
 
 
     <!--   Segunda seccion párrafos y favicons-->
-    <section class="bg-dark">
+    <section class="bg-dark d-none d-md-block">
         <h1 class="tituloUno p-5 bg-dark">¿Quiénes somos?</h1>
-        <div class="container-fluid bg-dark">
+        <div class="container-fluid bg-dark ">
             <div class="row justify-content-md-center bg-dark">
                 <!-- Columna 1 (izquierda)-->
                 <div class="textoParrafo col-sm col-lg">
                     <div class="colorLinea">
                         <div class="ico1"><i class="fas fa-plane fa-2x"></i></div>
                     </div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit eaque aliquam quo quibusdam ipsam
-                    voluptatem corporis soluta cum non voluptate omnis delectus aperiam autem, quia nisi distinctio ex
-                    cupiditate officia!
-                    Non a quod qui unde perferendis praesentium ducimus quaerat culpa rerum nobis dicta quos quam,
-                    tempore necessitatibus nemo optio quibusdam eveniet repellat et iusto consequatur fugiat veniam
-                    quisquam consectetur. At?
-                    Sint culpa accusamus impedit nam dolore nesciunt officia quae ducimus doloribus placeat eligendi
-                    corporis unde, accusantium ullam veritatis expedita error? Sequi quae possimus nisi accusamus
-                    assumenda tempore officiis harum libero!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Donec mattis
+                    ante nulla: Donec in neque consectetur, ultrices justo eu, hendrerit lectus.
+                    Nullam fermentum turpis et dolor euismod consequat sed sed ante.
+                    Curabi tur vel lacinia nisi. Sed mollis condimentum rhoncus.Proin sed diam eu
+                    risus auctor aliquet. Sed nisi lorem , mollis sit amet gravida in, finibus ut diam.
+                    Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandt, euismod ipsum eu, lobortis
+                    nisi interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa
+                    pellentesque , id interdum nibh luctus. Nam ac orci id neque posuere aliquam. 
                 </div>
 
                 <!-- Columna 2 (centro)-->
@@ -224,9 +223,9 @@
         <h1 style="color: #ffffff; text-align:center">CONTACTO</h1>
         <form class="formUno">
 
-            <label for="fname">Nombre</label><br>
+            <label for="fname">Nombre</label>inquired<br>
             <textarea class="form-control" rows="1"></textarea>
-            <!-- <input type="text" id="fname" name="fname"><br>-->
+            <input type="text" id="fname" name="fname" required>
             <label for="fasunto">Asunto</label><br>
             <textarea class="form-control" rows=""></textarea>
             <!--<input type="text" id="asunto" name="asunto"> <br> -->
@@ -234,7 +233,7 @@
             <!--<input type="text" id="mensaje" name="Mensaje">-->
             <textarea class="form-control" rows="10"></textarea>
             <div class="mx-a0uto" style="width:5rem;">
-                <button type="submit" class="btn btn-outline-light align-center mt-5 bg-info">Enviar</button>
+                <button id="boton" type="submit" class="btn btn-outline-light align-center mt-5 bg-info">Enviar</button>
             </div>
         </form>
         </div>
