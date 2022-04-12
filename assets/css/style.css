@@ -21,10 +21,11 @@
 
 
 .colorParrafo {
-    background-color: aqua;
+    background-color:rgb(23, 188, 243);
+    color: white;   
 }
 .fondoIcono {
-    background-color: aqua;
+    background-color: rgb(23, 188, 243);
 }
 .ico1 {
     color: white;
@@ -34,7 +35,7 @@
 }
  .colorLinea {
     
-    background-color:aqua  ;
+    background-color:rgb(23, 188, 243)  ;
 }
 
 .tituloUno {
