@@ -1,0 +1,56 @@
+.primerMenu {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 10pt;
+
+}
+
+#miCarrusel {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+.icon2 {
+    text-align: center;
+    color: white;
+    background-color: #328998;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+.colorParrafo {
+    background-color: aqua;
+}
+.fondoIcono {
+    background-color: aqua;
+}
+.ico1 {
+    color: white;
+    border-style: white;
+    width: 25%;
+    margin: 0 auto; 
+}
+ .colorLinea {
+    
+    background-color:aqua  ;
+}
+
+.tituloUno {
+    color: white;
+    text-align: center;
+}
+.formUno {
+    color: white;
+}
+.card-title {
+    font-family: 'Cabin', sans-serif;
+}
+
+.textoParrafo
+{
+    color: white;
+    text-align:left;
+
+}
